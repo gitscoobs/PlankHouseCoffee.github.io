@@ -27,3 +27,10 @@ li:hover {
   text-decoration: underline;
   text-decoration-color: rgb(238, 160, 86);
 }
+a img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
