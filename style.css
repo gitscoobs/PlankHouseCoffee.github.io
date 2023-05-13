@@ -14,4 +14,7 @@ ul.nav-links {
   font-size: 18px;
   list-style-type: none;
 }
+li {
+  margin: 0 10px;
+}
 
