@@ -33,27 +33,6 @@ nav {
 	font-family: 'Combi Serif', sans-serif;
 }
 
-.menu {
-	display: flex;
-	align-items: center;
-}
-
-.menu ul {
-	margin: 0;
-	padding: 10;
-	list-style: none;
-	display: flex;
-}
-
-.menu li {
-	margin-left: 20px;
-}
-
-.menu a {
-	color: #fff;
-	text-decoration: none;
-}
-
 .slideshow {
 	position: relative;
 	height: 500px;
