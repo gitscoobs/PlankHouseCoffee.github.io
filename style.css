@@ -2,3 +2,12 @@ div.banner {
   margin: 0 auto;
   display: block;
 }
+
+ul.nav-links {
+  margin: 0 auto;
+  display: table;
+}
+
+ul.nav-links li:hover {
+  text-decoration: underline;
+}
