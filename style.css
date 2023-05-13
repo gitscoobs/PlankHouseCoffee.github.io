@@ -5,7 +5,7 @@ div.banner {
 
 ul.nav-links {
   margin: 0 auto;
-  display: table;
+  display: inline;
   text-transform: lowercase;
   letter-spacing: 0px;
   font-weight: 400;
