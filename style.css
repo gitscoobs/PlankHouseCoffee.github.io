@@ -13,6 +13,3 @@ ul.nav-links {
   list-style-type: none;
 }
 
-ul.nav-links li:hover {
-  text-decoration: underline;
-}
