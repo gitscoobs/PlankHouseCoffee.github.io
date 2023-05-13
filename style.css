@@ -73,3 +73,54 @@ nav {
 .slideshow img.active {
 	opacity: 1;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  padding: 50px 0 0 20px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.menu li {
+  margin-bottom: 20px;
+}
+
+.menu li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu-open {
+  left: 0;
+}
