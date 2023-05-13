@@ -6,6 +6,10 @@ div.banner {
 ul.nav-links {
   margin: 0 auto;
   display: table;
+  text-transform: lowercase;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 ul.nav-links li:hover {
