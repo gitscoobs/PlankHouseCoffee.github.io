@@ -17,6 +17,7 @@ ul.nav-links {
 }
 li {
   margin: 0 10px;
+  color: red;
 }
 a {
   text-decoration: none;
