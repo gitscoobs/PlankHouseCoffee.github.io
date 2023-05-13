@@ -33,4 +33,8 @@ a img {
   display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
+  margin: 0 auto;
+  display: flex;
+  padding: 0;
+  justify-content: center;
 }
