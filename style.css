@@ -9,7 +9,7 @@ ul.nav-links {
   padding: 0;
   justify-content: center;
   text-transform: lowercase;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
   font-weight: 400;
   font-size: 18px;
   list-style-type: none;
@@ -17,4 +17,10 @@ ul.nav-links {
 li {
   margin: 0 10px;
 }
-
+a {
+  text-decoration: none;
+}
+li:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 128, 128, 0.5);
+}
