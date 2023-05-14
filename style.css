@@ -40,12 +40,13 @@ a img:hover {
   color: 	rgb(105,105,105)
 }
 div.socials {
-    width: 30px;
+  width: 30px;
   height: 30px;
   position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   color: rgb(238, 160, 86);
+  font-family: Poppins,sans-serif;
 }
   
