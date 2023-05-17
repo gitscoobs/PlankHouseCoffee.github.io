@@ -1,55 +1,149 @@
-div.banner {
-  text-align: center;
-  display: block;
-  font-family: Poppins,sans-serif;
-  color: rgb(238, 160, 86);
+html {
+	overflow-y: auto; /* add vertical scrollbar to the page */
+  }
+  
+  body {
+	margin: 0; /* remove default margin to prevent whitespace */
+  }
+  
+  div.banner {
+	text-align: center;
+	display: block;
+	font-family: Poppins, sans-serif;
+	color: rgb(238, 160, 86);
+	font-size: 2em; /* adjust font size using relative unit */
+  }
+  
+  ul.nav-links {
+	margin: 0 auto;
+	display: flex;
+	padding: 0;
+	justify-content: center;
+	text-transform: lowercase;
+	letter-spacing: 0.1em; /* adjust letter spacing using relative unit */
+	font-weight: 400;
+	font-size: 1.125em; /* adjust font size using relative unit */
+	list-style-type: none;
+  }
+  
+  li {
+	margin: 0 10px;
+  }
+  
+  a {
+	text-decoration: none;
+	color: rgb(238, 160, 86);
+  }
+  
+  li:hover {
+	text-decoration: underline;
+	text-decoration-color: rgb(238, 160, 86);
+  }
+  
+  .socials-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	bottom: 0;
+	margin-bottom: 10px;
+  }
+  
+  .socials {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .socials h1 {
+	margin-bottom: 0.5em; /* adjust margin using relative unit */
+	font-family: Poppins, sans-serif;
+	font-size: 1.125em; /* adjust font size using relative unit */
 }
+  
+  .socials i {
+	margin-right: 0.3em; /* adjust margin using relative unit */
+	margin-left: 0.3em; /* adjust margin using relative unit */
+	color: black;
+	font-size: 2rem;
+  }
+ 
+  .socials i:hover {
+	color: grey;
+	}
+  
+  .about-container {
+	font-family: Poppins, sans-serif;
+	font-size: 1.125em; /* adjust font size using relative unit */
+  }
+  
+  .home-container img {
+	width: 100%;
+	height: 600px;
+	padding-top: 1.5625em; /* adjust padding using relative unit */
+  }
+  
+  .home-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .home-container h1 {
+	padding-top: 1.5625em; /* adjust padding using relative unit */
+	font-family: Poppins, sans-serif;
+	font-size: 1.125em; /* adjust font size using relative unit */
+	font-style: italic;
+  }
+  
+  .paragraph-container {
+	display: flex;
+	font-size: 1em; /* adjust font size using relative unit */
+	font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .para1,
+  .para2 {
+	flex: 1;
+	padding-right: 5em;
+	padding-left: 5em;
+  }
+  
+  .para1 p,
+  .para2 p {
+	margin: 0;
 
-ul.nav-links {
-  margin: 0 auto;
-  display: flex;
-  padding: 0;
-  justify-content: center;
-  text-transform: lowercase;
-  letter-spacing: 1px;
-  font-weight: 400;
-  font-size: 18px;
-  list-style-type: none;
+	max-width: 25em; /* adjust max-width using relative unit */
+	line-height: 1.3;
+	font-weight: 500;
+  }
+  
+  .socimg-container {
+	display: flex;
 }
-li {
-  margin: 0 10px;
-}
-a {
-  text-decoration: none;
-  color: rgb(238, 160, 86);
-}
-li:hover {
-  text-decoration: underline;
-  text-decoration-color: rgb(238, 160, 86);
-}
-a img {
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: rgb(238, 160, 86);
-}
-a img:hover {
-  color: 	rgb(105,105,105)
-}
-div.socials {
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: rgb(238, 160, 86);
-  font-family: Poppins,sans-serif;
-}
-div.testing h1 {
-  color:black;
-}
+.about-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  .ender {
+	position: relative;
+	bottom: 0; 
+	left: 0;
+	width: 100%; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(238, 160, 86);
+	padding: 1rem;
+	font-size: 12px;
+	font-style: italic;
+	font-family: Lucida Sans Typewriter;
+	font-weight: 400;
+	
+  }
   
