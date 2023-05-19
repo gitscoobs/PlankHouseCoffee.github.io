@@ -101,7 +101,7 @@ html {
   
   .paragraph-container {
 	display: flex;
-	font-size: 1em; /* adjust font size using relative unit */
+	font-size: 1em; 
 	font-family: 'Times New Roman', Times, serif;
   }
   
